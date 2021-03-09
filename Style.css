@@ -1,0 +1,390 @@
+@font-face{
+
+    font-family: 'Roboto';
+    
+    src: url('../fonts/Roboto-Medium.ttf');
+    
+
+    font-weight: normal;
+    
+    font-style: normal;
+    
+    }
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: Roboto;
+}
+
+
+
+.promo {
+    height: 800px;
+    background: url('../img/main_bg.svg') center center/cover no-repeat;
+    padding: 22px 0 61px 0;
+   
+    
+}
+
+.logo_svg {
+    text-align: center;
+  
+}
+.logo_text {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+.big_title {
+    text-align: center;
+    text-transform: uppercase;
+    color: #F9BF3B;
+    font-size: 41px;
+    
+}
+
+.easy {
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20.5px;
+    font-size: 80px;
+}
+
+h1.big_title {
+    margin-top: 53px;
+    margin-bottom: 20.5px;
+    text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+}
+h2.big_title {
+    margin-bottom: 22.5px;
+    text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.promo_info {
+    font-size: 21px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 28px;
+    font-weight: 300px;
+
+}
+.promo_info span {
+    color: #F9BF3B;
+    font-weight: 700px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.promo_btn {
+    display: block;
+    width: 313px;
+    height: 72px;
+    margin: 0 auto;
+    margin-top: 70px;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+    outline: none;
+}
+.more .more_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+.more .more_img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 57px;
+    cursor: pointer;
+}
+.container_info {
+    margin-bottom: 61px;
+}
+
+.waiting {
+    min-height: 604px;
+    padding: 90px 0px 75px 0px;
+    background: #EFEFEF;
+}
+
+.what {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #252525;
+}
+.divider {
+    width: 220px;
+    height: 7px;
+    margin: 0 auto;
+    margin-top: 18px;
+    background: #F9BF3B;
+}
+.webinar {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 20px;
+    text-align: center;
+    color: #4A4A4A;
+    margin-top: 18.5px;
+}
+
+.waiting .waiting_wrapper {
+    display: flex;
+    justify-content: center;
+    
+
+   
+}
+.waiting .waiting_wrapper .waiting_item {
+    display:inline-block;
+    vertical-align: top;
+    width: 339px;
+    margin: 0 45px;
+    margin-top: 45px;
+    
+}
+.waiting .waiting_wrapper .waiting_item .waiting_description {
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.optimization {
+    padding-top: 37px;
+    padding-bottom: 1px;
+    margin: 0 auto;
+}
+.container_optimization {
+    position: relative;
+    min-height: 550px;
+   
+}
+.container_optimization .optimization_png {
+    position:absolute;
+    height: 500px;
+    width: 868px;
+    z-index: -1;
+    margin-left: 150px;
+    
+    
+}
+.optimization_header {
+font-family: Roboto;
+font-style: normal;
+font-size: 25px;
+text-transform: uppercase;
+color: #299CBD;
+margin-top: 108px;
+margin-bottom: 15px;
+ 
+}
+.container_optimization .optimization_desription {
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+    align-items: center;
+    color: #4A4A4A;
+    opacity: 0.35;
+   
+
+    
+}
+.optimization_text .optimization_desription span {
+font-weight: bold;
+}
+.optimization_text {
+ 
+ margin-left: 779px;
+ margin-right: 391px;
+}
+
+.container_achievment {
+    height: 450px;
+    background-image: url(../img/second_bg.svg);
+    padding-top: 86px;
+    padding-bottom: 68.5px;
+}
+
+
+h2.achievment_header {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #EFEFEF;
+}
+
+.achievment .achievment_wrapper {
+    margin-top: 39px;
+    display: flex;
+    justify-content: center;
+}
+
+.achievment .achievment_wrapper .achievment_item {
+    width: 234px;
+    text-align: center;
+    margin: 0 10px;
+}
+.ach_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 100%;
+    width: 118px;
+    height: 118px;
+    background: #B4E2FF;
+}
+
+.achievment .achievment_wrapper .achievment_item .achievment_decription {
+    margin-top: 25px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #EFEFEF;
+    }
+
+.container_gift {
+    min-height: 530px;
+    background: #EFEFEF;
+    padding: 88px 0 88px 0;
+    
+}
+
+.container_gift .gift_image {
+    text-align: center;
+  
+}
+.container_gift .gift_text {
+    width: 1160px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 43px;
+    text-align: center;
+    color: #252525;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+
+.container_timing {
+    min-height: 520px;
+    padding: 81px 0 52.5px 0;
+}
+
+.container_timing .timing_img {
+    text-align: center;
+}
+
+.container_timing .timing_text {
+    text-align: center;
+}
+.container_timing .timing_text .timing_text_1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #252525;
+    margin-top: 36px;
+}
+.container_timing .timing_text .timing_text_2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #299CBD;
+    margin-top: 30px;
+}
+
+.container_timing .timing_text .timing_text_3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 20px;
+    text-align: center;
+    color: #4A4A4A;
+    margin-top: 24px;
+}
+
+.container_footer {
+    height: 170px;
+    background: #1A1A1A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_footer .footer_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    color: #888888;
+}
+
+.container_footer .footer_text a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #888888;
+}
+
+.its_easy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
